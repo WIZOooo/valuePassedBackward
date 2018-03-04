@@ -24,7 +24,7 @@
     
     SecondViewController *secVC = [[SecondViewController alloc] initWithNibName:@"SecondViewController" bundle:nil];
     
-    secVC.delegate = self;
+    secVC.delegate = self;//commit
     
     [self showViewController:secVC sender:nil];
 }
